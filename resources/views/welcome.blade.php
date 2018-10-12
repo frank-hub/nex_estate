@@ -6,7 +6,7 @@
 	<div class="banner" style="padding-top: 0%;padding-bottom: 0%;height:500px;">
 			<div class="carousel-caption d-none d-md-block">
 				<h3 style="font-weight: bold">PROPERTY SEARCHING JUST GOT SO EASY</h3>
-				<button class="btn btn-outline-primary">Show Propery</button>
+				<button class="btn btn-primary">Show Propery</button>
 			</div>	
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
@@ -16,10 +16,10 @@
 						
 					  </div>
 					  <div class="carousel-item">
-						<img class="d-block w-100" src="images/banner_background.jpg" style="height:500px; alt="Second slide">
+						<img class="d-block w-100" src="images/slider2.jpg" style="height:500px; alt="Second slide">
 					  </div>
 					  <div class="carousel-item">
-						<img class="d-block w-100" src="images/banner_background.jpg" style="height:500px; alt="Third slide">
+						<img class="d-block w-100" src="images/slider3.jpg" style="height:500px; alt="Third slide">
 					  </div>
 					</div>
 					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
