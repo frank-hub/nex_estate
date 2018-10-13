@@ -59,11 +59,41 @@
 							<div class="col-lg-12" style="z-index:1;">
 								<div class="tab-content">
 									<div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-										
+										<div class="row">
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-body">
+														<img src="" alt="" class="img-fluid">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-body">
+														<img src="" alt="" class="img-fluid">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-body">
+														<img src="" alt="" class="img-fluid">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-body">
+														<img src="" alt="" class="img-fluid">
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-									<div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
-									<div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+									<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">Frank</div>
+									<div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+
+									</div>
 								</div>
 							</div>
 						</div>
