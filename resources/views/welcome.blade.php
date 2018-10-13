@@ -62,37 +62,56 @@
 										<div class="row">
 											<div class="col-md-3">
 												<div class="card">
-													<div class="card-body">
-														<img src="" alt="" class="img-fluid">
-													</div>
-												</div>
-											</div>
-											<div class="col-md-3">
-												<div class="card">
-													<div class="card-body">
-														<img src="" alt="" class="img-fluid">
-													</div>
-												</div>
-											</div>
-											<div class="col-md-3">
-												<div class="card">
-													<div class="card-body">
-														<img src="" alt="" class="img-fluid">
-													</div>
-												</div>
-											</div>
-											<div class="col-md-3">
-												<div class="card">
-													<div class="card-body">
-														<img src="" alt="" class="img-fluid">
+													<img src="images/land.jpg" alt="" class="img-fluid">
+													<div class="card-footer">
+														<p>
+															<h5 class="text-muted">Kilele Lands</h5>
+															<strong>Area : 4300m
+																<i class="fa fa-money-bill-alt"></i>
+																<span style="margin-bottom: 5px;">KSH. 500,000</span>
+															</strong>
+															
+														</p>
+														
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">Frank</div>
+									<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+										<div class="col-md-3">
+											@foreach ($products as $product)
+												<p>{{ $product->id }}</p>
+											@endforeach
+											<div class="card">
+												<img src="images/office_space.jpeg" alt="" class="img-fluid">
+												<div class="card-footer">
+													<p>
+														<h5 class="text-muted">Hanibal Offices</h5>
+														<strong>Area : 4300m
+															<i class="fa fa-money-bill-alt"></i>
+															<span style="margin-bottom: 5px;">KSH. 500,000</span>
+														</strong>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
 									<div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-
+										<div class="col-md-3">
+											<div class="card">
+												<img src="images/modern-conference.jpeg" alt="" class="img-fluid">
+												<div class="card-footer">
+													<p>
+														<h5 class="text-muted">Kilele Lands</h5>
+														<strong>Area : 430m
+															<i class="fa fa-money-bill-alt"></i>
+															<span style="margin-bottom: 5px;">KSH. 500,000</span>
+														</strong>
+													</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>

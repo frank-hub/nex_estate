@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>OneTech</title>
+<title>Nex-Estate</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="OneTech shop project">
+<meta name="description" content="Nex-Estate">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
@@ -177,7 +177,7 @@
 		<div class="col-lg-3 footer_col">
 			<div class="footer_column footer_contact">
 				<div class="logo_container">
-					<div class="logo"><a href="#">OneTech</a></div>
+					<div class="logo"><a href="#">Nex-Estate</a></div>
 				</div>
 				<div class="footer_title">Got Question? Call Us 24/7</div>
 				<div class="footer_phone">+38 068 005 3570</div>

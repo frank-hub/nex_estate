@@ -17,7 +17,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 Route::get('services', function () {
     return view('services');
 });
@@ -29,3 +28,6 @@ Route::get('/blog', function(){
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('/', 'ProductsController@index')->name('welcome');
+Route::get('/home', 'HomeController@index')->name('home');
