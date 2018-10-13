@@ -83,7 +83,7 @@
 											@foreach ($products as $product)
 												<div class="col-md-3">
 													<div class="card">
-														<img src="images/office_space.jpeg" alt="" class="img-fluid">
+														<img src="{{asset('storage/'.$product->image )}}" alt="" class="img-fluid">
 														<div class="card-footer">
 															<p>
 																<h5 class="text-muted">{{ $product->title }}</h5>
