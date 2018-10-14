@@ -13,9 +13,24 @@ class ProductsController extends Controller
      */
     public function index()
     {
-        $products = DB::table('posts')->select('id','image','title','body')->get();
+        $property = [];
+        $property['plots'] = DB::table('posts')->select('id','image','title','body')->get();
+        // $property['conference'] = DB::SELECT('select * FROM people WHERE user_id =?',[$id]);
+        // $property['office'] = DB::SELECT('select * FROM commercialvehicle WHERE user_id =? && confirmation=0',[$id]);
+        return view('welcome')->with('property', $property);
 
-        return view('welcome')->with('products', $products);
+//         public function pdf(){
+//             $id = Auth::user()->id ;
+//             $carbon = new Carbon(); 
+//      $data = [];
+//      $data['carbon']=$carbon;
+//         $data['datapresence']=DB::SELECT('select * FROM people WHERE user_id =?',[$id]);
+//         $data['activeprescription']=DB::SELECT('select * FROM commercialvehicle WHERE user_id =? && confirmation=0',[$id]);
+
+// $pdf = PDF::loadView('pages.invoicecommercial', $data);
+// return $pdf->stream('venuscommercial.pdf');
+// // return $pdf->download('invoice.pdf');
+// }
     }
 
     /**

@@ -80,7 +80,7 @@
 									</div>
 									<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 										<div class="row">
-											@foreach ($products as $product)
+											@foreach ($property['plots'] as $product)
 												<div class="col-md-3">
 													<div class="card">
 														<img src="{{asset('storage/'.$product->image )}}" alt="" class="img-fluid">
