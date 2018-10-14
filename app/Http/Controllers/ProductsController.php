@@ -19,18 +19,18 @@ class ProductsController extends Controller
         // $property['office'] = DB::SELECT('select * FROM commercialvehicle WHERE user_id =? && confirmation=0',[$id]);
         return view('welcome')->with('property', $property);
 
-//         public function pdf(){
-//             $id = Auth::user()->id ;
-//             $carbon = new Carbon(); 
-//      $data = [];
-//      $data['carbon']=$carbon;
-//         $data['datapresence']=DB::SELECT('select * FROM people WHERE user_id =?',[$id]);
-//         $data['activeprescription']=DB::SELECT('select * FROM commercialvehicle WHERE user_id =? && confirmation=0',[$id]);
+            //         public function pdf(){
+            //             $id = Auth::user()->id ;
+            //             $carbon = new Carbon(); 
+            //      $data = [];
+            //      $data['carbon']=$carbon;
+            //         $data['datapresence']=DB::SELECT('select * FROM people WHERE user_id =?',[$id]);
+            //         $data['activeprescription']=DB::SELECT('select * FROM commercialvehicle WHERE user_id =? && confirmation=0',[$id]);
 
-// $pdf = PDF::loadView('pages.invoicecommercial', $data);
-// return $pdf->stream('venuscommercial.pdf');
-// // return $pdf->download('invoice.pdf');
-// }
+            // $pdf = PDF::loadView('pages.invoicecommercial', $data);
+            // return $pdf->stream('venuscommercial.pdf');
+            // // return $pdf->download('invoice.pdf');
+            // }
     }
 
     /**

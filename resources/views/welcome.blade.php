@@ -80,16 +80,16 @@
 									</div>
 									<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 										<div class="row">
-											@foreach ($property['plots'] as $product)
+											@foreach ($property['plots'] as $plot)
 												<div class="col-md-3">
 													<div class="card">
-														<img src="{{asset('storage/'.$product->image )}}" alt="" class="img-fluid">
+														<img src="{{asset('storage/'.$plot->image )}}" alt="" class="img-fluid">
 														<div class="card-footer">
 															<p>
-																<h5 class="text-muted">{{ $product->title }}</h5>
+																<h5 class="text-muted">{{ $plot->title }}</h5>
 																<strong>Area : 4300m
 																	<i class="fa fa-money-bill-alt"></i>
-																	<span style="margin-bottom: 5px;">KSH. {{ $product->body}}</span>
+																	<span style="margin-bottom: 5px;">KSH. {{ $plot->body}}</span>
 																</strong>
 															</p>
 														</div>
