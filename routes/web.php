@@ -29,5 +29,9 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
+Route::get('property', function () {
+    return view('property');
+});
+
 Route::get('/', 'ProductsController@index')->name('welcome');
 Route::get('/home', 'HomeController@index')->name('home');

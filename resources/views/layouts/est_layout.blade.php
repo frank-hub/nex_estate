@@ -120,7 +120,7 @@
 							<ul class="standard_dropdown main_nav_dropdown">
 								<li><a href="/">Home<i class="fas fa-chevron-down"></i></a></li>
 								<li><a href="services">Services<i class="fas fa-chevron-down"></i></a></li>
-								<li><a href="#">Propery<i class="fas fa-chevron-down"></i></a></li>
+								<li><a href="{{url('property')}}">Propery<i class="fas fa-chevron-down"></i></a></li>
 								<li class="hassubs">
 									<a href="#">Bookings<i class="fas fa-chevron-down"></i></a>
 									<ul>
