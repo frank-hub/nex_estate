@@ -30,8 +30,9 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 Route::get('property', function () {
-    return view('property');
+    return view('property.property');
 });
 
 Route::get('/', 'ProductsController@index')->name('welcome');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/property/single', 'ProductsController@show')->name('single');

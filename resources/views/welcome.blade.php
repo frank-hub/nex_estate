@@ -6,7 +6,7 @@
 	<div class="banner" style="padding-top: 0%;padding-bottom: 0%;height:500px;">
 			<div class="carousel-caption d-none d-md-block">
 				<h3 style="font-weight: bold">PROPERTY SEARCHING JUST GOT SO EASY</h3>
-				<button class="btn btn-primary">Show Propery</button>
+				<a href="{{url('property')}}" class="btn btn-primary">Show Propery</a>
 			</div>	
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
