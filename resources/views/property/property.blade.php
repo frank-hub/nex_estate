@@ -10,12 +10,12 @@
             <div class="col-md-9">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
-                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-th"></i></a>
+                        <a class="nav-link active" id="home-tab" data-placement="top" title="Grid View" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-th"></i></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false"><i class="fas fa-list"></i></a>
+                        <a class="nav-link" id="settings-tab"  data-placement="top" title="List View" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false"><i class="fas fa-list"></i></a>
                     </li>
-                  </ul>
+                </ul>
                   
                   <div class="tab-content">
                     <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
