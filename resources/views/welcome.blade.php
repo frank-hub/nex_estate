@@ -140,7 +140,7 @@
 							<div class="advert_title"><a href="#">Trends 2018</a></div>
 							<div class="advert_text">Lorem ipsum dolor sit amet, consectetur adipiscing Donec et.</div>
 						</div>
-						<div class="ml-auto"><div class="advert_image"><img src="images/adv_1.png" alt=""></div></div>
+						<div class="ml-auto"><div class="advert_image"><img src="images/office-space3.jpg" alt=""></div></div>
 					</div>
 				</div>
 
@@ -154,7 +154,7 @@
 							<div class="advert_title_2"><a href="#">Sale -45%</a></div>
 							<div class="advert_text">Lorem ipsum dolor sit amet, consectetur.</div>
 						</div>
-						<div class="ml-auto"><div class="advert_image"><img src="images/adv_2.png" alt=""></div></div>
+						<div class="ml-auto"><div class="advert_image"><img src="images/office_space.jpeg" alt=""></div></div>
 					</div>
 				</div>
 
@@ -167,7 +167,7 @@
 							<div class="advert_title"><a href="#">Trends 2018</a></div>
 							<div class="advert_text">Lorem ipsum dolor sit amet, consectetur.</div>
 						</div>
-						<div class="ml-auto"><div class="advert_image"><img src="images/adv_3.png" alt=""></div></div>
+						<div class="ml-auto"><div class="advert_image"><img src="images/office-space2.jpg" alt=""></div></div>
 					</div>
 				</div>
 

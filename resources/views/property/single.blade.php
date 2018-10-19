@@ -116,6 +116,8 @@
                           <i class="fas fa-phone-volume" style="font-size: 15px;color: #FFA500;">
                             <a style="margin-left: 10px;color: white"  href="tel:+254717353774">+254 717 353 774</a>
                           </i>
+                          
+                         
                         </div>
                       </div>
                 </div>
