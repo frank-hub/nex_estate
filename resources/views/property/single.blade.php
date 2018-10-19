@@ -78,8 +78,46 @@
                           </div>
             </div>
             <div class="col-md-4" style="padding-left: 0px;margin-left: 0px;margin-top: 15px;">
-                <div class="p-3  yellow" style="background-color: gray;opacity: 0.5">
-                    <h3>24 ACRES NAKURU | HOME</h3>
+                <div class="p-3" style="background-color:#838383;">
+                    <h3 class="text-white">24 ACRES NAKURU | HOME</h3>
+                    <h3 style="color: #FFA500;">KSH 150000</h3>
+                    <div class="row          ">
+                      <div class="col-sm-4">
+                        <i class="fa fa-bed" style="font-size: 25px;color: #FFA500;"></i>
+                        <h5 class="text-white">BED ROOMS 2</h5>
+                      </div>
+                      <div class="col-sm-4">
+                        <i class="fa fa-shower" style="font-size: 30px;color: #FFA500;"></i>
+                        <h5 class="text-white">Bathrooms 1</h5>
+                      </div>
+                      <div class="col-sm-4">
+                        <i class="fas fa-warehouse" style="font-size: 30px;color: #FFA500;"></i>
+                        <h5 class="text-white">Car Pack 1</h5>
+                      </div>
+                      <div class="col-sm-4">
+                        <i class="fas fa-globe-africa" style="font-size: 30px;color: #FFA500;"></i>
+                        <h5 class="text-white">AREA 98730Sq m</h5>
+                      </div>
+                      <div class="col-sm-4">
+                        <i class="fas fa-map-marker-alt" style="font-size: 30px;color: #FFA500;"></i>
+                        <h5 class="text-white">Wanyororo Main Rd, Nakuru, Kenya</h5>
+                      </div>
+                    </div>
+                    <div style="background-color: #9B9B9B">
+                      <h4 class="text-white">DEALER INFORMATION</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                          <h4>NEX-ESTATE</h4>
+                          <i class="fa fa-envelope" style="font-size: 15px;color: #FFA500;">
+                            <a style="margin-left: 10px;color: white" href="mailto:info@nextechdevelopers.com">info@nextechdevelopers.com</a>
+                          </i>
+                          <br>
+                          <i class="fas fa-phone-volume" style="font-size: 15px;color: #FFA500;">
+                            <a style="margin-left: 10px;color: white"  href="tel:+254717353774">+254 717 353 774</a>
+                          </i>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
